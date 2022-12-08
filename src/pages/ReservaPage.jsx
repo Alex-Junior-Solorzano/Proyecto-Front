@@ -1,16 +1,16 @@
 import React from 'react'
 import NavBar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import Home from '../components/Home.jsx'
+import Reserva from '../components/Reserva.jsx'
 
-const HomePage = () => {
+const ReservaPage = () => {
   return (
     <>
       <NavBar />
-      <Home />
+      <Reserva />
       <Footer />
     </>
   )
 }
 
-export default HomePage
+export default ReservaPage
