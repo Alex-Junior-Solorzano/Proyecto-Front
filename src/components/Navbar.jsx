@@ -18,6 +18,7 @@ const NavBar= () => {
             <NavLink className="nav-link" to="/home">Home</NavLink>
             <NavLink className="nav-link"  to="/contact">Contact Us</NavLink>
             <NavLink className="nav-link"  to="/about">About Us</NavLink>
+            <NavLink className="nav-link"  to="/reserva">Recervations</NavLink>
           </Nav>
           <Form className="d-flex">
             <Form.Control
