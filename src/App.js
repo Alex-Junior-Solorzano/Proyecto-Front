@@ -4,6 +4,7 @@ import Login from "./components/Login";
 import Registro from "./components/Registro";
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import DetallePage from './pages/DetallePage';
 import HomePage from './pages/HomePage';
 import ReservaPage from './pages/ReservaPage';
 import './styles/styles.css'
@@ -20,6 +21,7 @@ function App() {
           <Route path='/about' element = {<AboutPage />} />
           <Route path='/contact' element = {<ContactPage />} />
           <Route path='/reserva' element = {<ReservaPage />} />
+          <Route path='/detalle' element = {<DetallePage />} />
         </Routes>
       </HashRouter>
     </div>
