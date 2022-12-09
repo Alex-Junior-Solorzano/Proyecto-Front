@@ -31,7 +31,7 @@ const Login = () => {
                             <Alert.Link onClick={ () => navigate('/registro')}> click aqui</Alert.Link>.
                         </Alert>
                     </div>
-                    <button className='btn btn-success w-100 mt-2' type='submit' onClick={ () => navigate('/home')}>SIGN IN</button>
+                    <button className='btn btn-success w-100 mt-2' type='' onClick={ () => navigate('/home')}>SIGN IN</button>
                 </form>
             </div>
         </div>
