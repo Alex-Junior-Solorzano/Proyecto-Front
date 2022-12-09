@@ -17,7 +17,7 @@ const NavBar = () => {
     const navigate = useNavigate();
     const [showNavText, setShowNavText] = useState(false);
     return (
-        <MDBNavbar expand='lg'  bgColor='secondary'>
+        <MDBNavbar expand='lg'  className='navbar'>
             <MDBContainer fluid>
                 <MDBNavbarBrand onClick={() => navigate('/home')}>Proyecto Front-End</MDBNavbarBrand>
                 <MDBNavbarToggler
@@ -44,7 +44,7 @@ const NavBar = () => {
                             </MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/about')}>About</MDBNavbarLink>
+                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/about')}>About Us</MDBNavbarLink>
                         </MDBNavbarItem>
                         <MDBNavbarItem>
                             <MDBNavbarLink active aria-current='page' onClick={() => navigate('/contact')}>Contact</MDBNavbarLink>
@@ -52,7 +52,7 @@ const NavBar = () => {
                     </MDBNavbarNav>
                     <form className='d-flex input-group w-auto'>
                         <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
-                        <Button color='primary'>Search</Button>
+                        <Button className='button-search' color='secondary'>Search</Button>
                     </form>
                 </MDBCollapse>
             </MDBContainer>
