@@ -1,5 +1,5 @@
 body {
-    background-color: #4d6494cf;
+    background-color: #8c9cc196;
 }
 
 .navbar {
@@ -29,13 +29,13 @@ body {
 }
 
 .footer1 {
-    background-color: #9891a5;
+    background-color: #0D6EFD;
     width: 100%;
 
 }
 
 .button-search {
-    background-color: #2b4846;
+    background-color: #48a246;
     border-color: aliceblue;
 }
 
@@ -45,4 +45,9 @@ body {
 
 .a1 {
     text-decoration: none;
+}
+
+.cont-contact {
+    background-color: #dbeeed99;
+    color: Black;
 }

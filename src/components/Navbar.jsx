@@ -1,63 +1,39 @@
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
 
-import React, { useState } from 'react'
-import { Button } from 'react-bootstrap'
-import { useNavigate } from "react-router-dom";
-import {
-    MDBNavbar,
-    MDBContainer,
-    MDBNavbarBrand,
-    MDBIcon,
-    MDBNavbarNav,
-    MDBNavbarItem,
-    MDBNavbarLink,
-    MDBNavbarToggler,
-    MDBCollapse,
-} from 'mdb-react-ui-kit';
-const NavBar = () => {
-    const navigate = useNavigate();
-    const [showNavText, setShowNavText] = useState(false);
-    return (
-        <MDBNavbar expand='lg'  className='navbar'>
-            <MDBContainer fluid>
-                <MDBNavbarBrand onClick={() => navigate('/home')}>Proyecto Front-End</MDBNavbarBrand>
-                <MDBNavbarToggler
-                    type='button'
-                    data-target='#navbarText'
-                    aria-controls='navbarText'
-                    aria-expanded='false'
-                    aria-label='Toggle navigation'
-                    onClick={() => setShowNavText(!showNavText)}
-                >
-                    
-                    <MDBIcon fas icon="bars" />
-                </MDBNavbarToggler>
-                <MDBCollapse navbar show={showNavText}>
-                    <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/home')}>
-                                Home
-                            </MDBNavbarLink>
-                        </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/reserva')}>
-                                Reservation
-                            </MDBNavbarLink>
-                        </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/about')}>About Us</MDBNavbarLink>
-                        </MDBNavbarItem>
-                        <MDBNavbarItem>
-                            <MDBNavbarLink active aria-current='page' onClick={() => navigate('/contact')}>Contact</MDBNavbarLink>
-                        </MDBNavbarItem>
-                    </MDBNavbarNav>
-                    <form className='d-flex input-group w-auto'>
-                        <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
-                        <Button className='button-search' color='secondary'>Search</Button>
-                    </form>
-                </MDBCollapse>
-            </MDBContainer>
-        </MDBNavbar>
-    );
+
+const NavBar= () => {
+  return (
+<Navbar collapseOnSelect expand="lg" bg="primary gradient" variant="dark">
+      <Container>
+        <Navbar.Brand href="/home">Rick And Morthy</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <NavLink className="nav-link" to="/home">Home</NavLink>
+            <NavLink className="nav-link"  to="/contact">Contact Us</NavLink>
+            <NavLink className="nav-link"  to="/about">About Us</NavLink>
+            <NavLink className="nav-link"  to="/reserva">Recervations</NavLink>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button className='button-search' color='secondary'>Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+      
+      </Navbar>
+  )
 }
 
 export default NavBar
