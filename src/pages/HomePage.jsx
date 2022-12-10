@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      <Home />
+      {/*<Home />*/}
       <RickMorthyList/>
       <Footer />
     </>
