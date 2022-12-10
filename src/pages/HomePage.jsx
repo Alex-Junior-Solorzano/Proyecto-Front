@@ -8,8 +8,8 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      {/*<Home />*/}
-      <RickMorthyList/>
+      <Home />
+      {/*<RickMorthyList/>*/}
       <Footer />
     </>
   )

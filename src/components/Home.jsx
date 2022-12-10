@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div>
       <div className = "container mt-5" >
-        <Paginacion prev={info.prev} next = {info.next} onPrevius={onPrevius} onNext={onNext}/>
+        <h1>Lista de personajes</h1>
         <Characters characters = {characters} />
         <Paginacion prev={info.prev} next = {info.next} onPrevius={onPrevius} onNext={onNext}/>
       </div>
