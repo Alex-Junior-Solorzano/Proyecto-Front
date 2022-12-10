@@ -1,5 +1,4 @@
 import { Routes, Route, HashRouter } from 'react-router-dom'
-import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 import Login from "./components/Login";
 import Registro from "./components/Registro";
@@ -13,8 +12,6 @@ import './styles/styles.css'
 function App() {
   return (
     <div className="App">
-      <TransitionGroup className="slide" timeout={1000}>
-      <CSSTransition >
       <HashRouter >
         <Routes >
           <Route path='/' element = {<HomePage />} />
@@ -27,8 +24,6 @@ function App() {
           <Route path='/detalle' element = {<DetallePage />} />
         </Routes>
       </HashRouter>
-      </CSSTransition>
-      </TransitionGroup>
     </div>
   );
 }

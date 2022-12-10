@@ -86,3 +86,16 @@ body {
 .slide-exit-active {
   transform: translateX(-100%);
 }
+
+.titulo {
+    text-align: center;
+}
+
+.input-search{
+    height: 55px;
+    max-width: 300px;
+}
+
+.form-search {
+    justify-content: right;
+}
