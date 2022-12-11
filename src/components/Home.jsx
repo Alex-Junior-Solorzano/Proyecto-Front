@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
-import Characters from './Characters.jsx'
+import React, { useEffect, useState } from 'react';
+import Characters from './Characters.jsx';
 import Paginacion from './Paginacion.jsx';
-import axios from 'axios'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import Axios from 'axios';
 
 const Home = () => {
   const [characters, setCharacters] = useState([]);
@@ -15,7 +15,7 @@ const Home = () => {
   const fetchCharacters = async (url) => {
 
 
-    await axios({
+    await Axios({
       url: url,
     })
       .then((response) => {
