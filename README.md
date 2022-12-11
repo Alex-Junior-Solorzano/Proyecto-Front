@@ -5,7 +5,12 @@
 
  > En este proyecto se ponen en pratica los temas revisados durante el curso de Front-End.
 
-<img src='./src/images/123.png' height='300px'>
+
+## Funcionamiento
+
+  - [Video del Funcionamiento](https://www.youtube.com/watch?v=KYR1tryOyyE)
+
+ <img src='./src/images/123.png' height='300px'>
 
 
 ## Build with 
