@@ -54,7 +54,7 @@ const Detalle = () => {
               <p>Estatus: {personaje.status}</p>
               <p>Origen: {personaje.origin}</p>
               <hr />
-              <Button className='button btn btn-success w-100 mt-2' color='prymary' onClick={() => navigate('/favorites')}>Añadir a  Favoritos</Button>
+              <Button className='button btn btn-success w-100 mt-2' color='prymary' onClick={() => navigate('/home')}>Volver</Button>
             </div>
           </div>
         </div>

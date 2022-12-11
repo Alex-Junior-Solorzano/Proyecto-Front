@@ -1,16 +1,16 @@
 import React from 'react'
 import NavBar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import Favorites from '../components/Favorites.jsx'
+import MyCards from '../components/MyCards.jsx'
 
-const FavoritesPage = () => {
+const MyCardsPage = () => {
   return (
     <>
       <NavBar />
-      <Favorites />
+      <MyCards />
       <Footer />
     </>
   )
 }
 
-export default FavoritesPage
+export default MyCardsPage
