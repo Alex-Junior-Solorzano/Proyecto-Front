@@ -7,8 +7,8 @@ const MyCards = () => {
   const cards = useSelector(state => state.cards);
   const dispatch = useDispatch()
 
-  const handleDelete = (id,e) => {
-    e.preventDefault();
+  const handleDelete = (id) => {
+
     dispatch(deleteCard(id))
   }
 

@@ -29,7 +29,7 @@
 
  ### Setup
  
-  - Clone this repo using `git clone https://github.com/Alex-Junior-Solorzano/Tareas-con-ReduxToolkit`
+  - Clone this repo using `git clone https://github.com/Alex-Junior-Solorzano/Proyecto-Front`
 
   - Go the proyect folder, open a terminal and following commands
 
