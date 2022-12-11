@@ -1,5 +1,13 @@
 body {
     background-color: #8c9cc196;
+    padding-bottom: 8%;
+}
+
+.logo{
+    height: 70%;
+    width: 80px;
+    margin: 5px 50px 5px 5px;
+    align-items: flex-start;
 }
 
 .navbar {
@@ -16,7 +24,13 @@ body {
     height: min-content;
     border-radius: 5px;
     color: black;
-    background-color: rgb(238, 241, 243);
+    background-color: rgba(154, 168, 177, 0.858);
+}
+
+.fondo-login {
+    background-image: url('../images/23.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .footerCont {
@@ -31,7 +45,6 @@ body {
 .footer1 {
     background-color: #0D6EFD;
     width: 100%;
-
 }
 
 .button-search {
@@ -54,4 +67,60 @@ body {
 
 .card-character {
     padding-bottom: 20px;
+}
+
+.slide-enter,
+.slide-exit {
+  transition: transform 1000ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+.slide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.input-search{
+    height: 55px;
+    max-width: 300px;
+}
+
+.form-search {
+    justify-content: right;
+}
+
+.divPadre {
+    height: 100vh;
+    position: relative;
+}
+
+.divHijo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.detalles {
+    max-width: 100px;
 }

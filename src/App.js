@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import DetallePage from './pages/DetallePage';
 import HomePage from './pages/HomePage';
-import ReservaPage from './pages/ReservaPage';
+import FavoritesPage from './pages/FavoritesPage';
 import './styles/styles.css'
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
           <Route path='/home' element = {<HomePage />} />
           <Route path='/about' element = {<AboutPage />} />
           <Route path='/contact' element = {<ContactPage />} />
-          <Route path='/reserva' element = {<ReservaPage />} />
-          <Route path='/detalle' element = {<DetallePage />} />
+          <Route path='/favorites' element = {<FavoritesPage />} />
+          <Route path='/detalle/:id' element = {<DetallePage />} />
         </Routes>
       </HashRouter>
     </div>

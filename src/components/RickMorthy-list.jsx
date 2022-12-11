@@ -62,8 +62,8 @@ class RickMorthyList extends Component {
         const{ rickmortys}=this.props;
         console.log(rickmortys)
         return (
-            <div>
-            <MDBRow  className="row-cols-1 row-cols-md-3 g-4 ">
+            <div className="container mt-5">
+            <MDBRow  className=" row-cols-1 row-cols-md-3 g-4 ">
             
           {rickmortys.map((card) => (
             <MDBCol key={card.id} sm='6'>
@@ -71,9 +71,7 @@ class RickMorthyList extends Component {
                     <MDBCardImage src={card.image} fluid alt="..."  position='top'/>
                   <MDBCardBody>
                     <MDBCardTitle>{card.name}</MDBCardTitle>
-                    <MDBCardText>Especie: {card.species}</MDBCardText>
-                    <MDBCardText>Location: {card.location.name}</MDBCardText>
-                    <MDBBtn href="#">Button</MDBBtn>
+                    <MDBBtn href="/detalle" className='button-search' color='secondary'>Ver mas</MDBBtn>
                   </MDBCardBody>
                 </MDBCard>
               </MDBCol>

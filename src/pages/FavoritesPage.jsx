@@ -1,16 +1,16 @@
 import React from 'react'
 import NavBar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import Reserva from '../components/Reserva.jsx'
+import Favorites from '../components/Favorites.jsx'
 
-const ReservaPage = () => {
+const FavoritesPage = () => {
   return (
     <>
       <NavBar />
-      <Reserva />
+      <Favorites />
       <Footer />
     </>
   )
 }
 
-export default ReservaPage
+export default FavoritesPage

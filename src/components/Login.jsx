@@ -7,7 +7,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     return (
-        <div className='wrapper bg-dark d-flex align-items-center justify-content-center w-100' >
+        <div className='fondo-login wrapper bg-dark d-flex align-items-center justify-content-center w-100' >
             <div className='login rounded'>
                 <h2 className='mb-3'> Login Form</h2>
                 <form action="" className='needs-validation'>
