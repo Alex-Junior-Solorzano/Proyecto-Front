@@ -15,7 +15,7 @@ const Characters = ({ characters = [] }) => {
                         <div className='card-body'>
                             <h5 className='card-title'>{item.name}</h5>
                             <hr />
-                            <Button className='button btn btn-success w-100 mt-2' color='prymary' onClick={()=>navigate('/detalle')}>Ver mas</Button>
+                            <Button className='button btn btn-success w-100 mt-2' color='prymary' onClick={()=>navigate(`/detalle/${item.id}`)}>Ver mas</Button>
                         </div>
                     </div>
                 </div>

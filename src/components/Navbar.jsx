@@ -10,14 +10,20 @@ const NavBar= () => {
   return (
 <Navbar collapseOnSelect expand="lg" bg="primary gradient" variant="dark">
       <Container>
-        <Navbar.Brand href="/home">Rick And Morthy</Navbar.Brand>
+      <img className='logo'
+                  src= {require(`../images/logo2.png`)}
+                  alt='Logo'
+              />
+        <Navbar.Brand href="/home">
+          Rick & Morthy
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavLink className="nav-link" to="/home">Home</NavLink>
             <NavLink className="nav-link"  to="/contact">Contact Us</NavLink>
             <NavLink className="nav-link"  to="/about">About Us</NavLink>
-            <NavLink className="nav-link"  to="/reserva">Recervations</NavLink>
+            <NavLink className="nav-link"  to="/favorites">Favorites</NavLink>
           </Nav>
           
         </Navbar.Collapse>

@@ -54,7 +54,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchCharacters(inicialUrl)
-  }, [characters])
+  }, [])
 
   return (
     <div>
@@ -71,6 +71,7 @@ const Home = () => {
           <Button className='button-search' color='secondary'>Search</Button>
         </Form>
         <h1 className='titulo'>Lista de personajes</h1>
+        
         <Characters characters={resultt} />
         <Paginacion prev={info.prev} next={info.next} onPrevius={onPrevius} onNext={onNext} />
       </div>
