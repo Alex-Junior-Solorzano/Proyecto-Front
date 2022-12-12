@@ -1,5 +1,6 @@
 <img src='./src/images/logo2.png' height='50px'>
 
+
 # Kruger Start Proyecto de Front-End
 
 
@@ -9,6 +10,7 @@
 ## Funcionamiento
 
   - [Video del Funcionamiento](https://www.youtube.com/watch?v=KYR1tryOyyE)
+
 
  <img src='./src/images/123.png' height='300px'>
 
@@ -26,8 +28,8 @@
 
 ## Live Demo
 
+ You can access a demo by clicking on ->[Live Demo Link](https://zippy-granita-c83af5.netlify.app)
 
- [Live Demo Link](https://zippy-granita-c83af5.netlify.app)
 
 ## Run it Locally
 
@@ -49,15 +51,26 @@
 
     `npm start`
 
+  - To run test
+
+    `npm run test`
+
 
 ## Authors
 
  👤 **Alex Junior Solorzano**
 
  - GitHub: [@Alex-Junior-Solorzano](https://github.com/Alex-Junior-Solorzano)
- - Linkedin [@Alex Solórzano Vélez](https://www.linkedin.com/in/alex-solórzano-vélez/)
+ - Linkedin: [@Alex Solórzano Vélez](https://www.linkedin.com/in/alex-solórzano-vélez/)
 
  👤 **Edwin Pinchao**
 
  - GitHub: [@Edwin9226](https://github.com/Edwin9226)
- - Linkedin [@Edwin Pinchao Mueses](https://www.linkedin.com/in/edwin-pinchao-mueses-951130175/)
+ - Linkedin: [@Edwin Pinchao Mueses](https://www.linkedin.com/in/edwin-pinchao-mueses-951130175/)
+
+## Supervisor
+
+ 👤 **Juan Sevastian Sotomayor**
+
+ - GitHub: [@Juanse7793](https://github.com/Juanse7793)
+ - Linkedin: [@Juan Sebastian Sotomayor](https://www.linkedin.com/in/juansebastiansotomayor/)

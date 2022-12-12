@@ -15,7 +15,7 @@ const NavBar = () => {
           src={require(`../images/logo2.png`)}
           alt='Logo'
         />
-        <Navbar.Brand href='/home'>
+        <Navbar.Brand href='/#/home'>
           Rick & Morthy
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
