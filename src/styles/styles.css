@@ -1,0 +1,153 @@
+body {
+    background-color: #8c9cc196;
+    padding-bottom: 80px;
+}
+
+.logo{
+    height: 70%;
+    width: 80px;
+    margin: 5px 50px 5px 5px;
+    align-items: flex-start;
+}
+
+.navbar {
+    background-color: #69aea9;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.login {
+    width: 300px;
+    padding: 20px;
+    height: min-content;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(154, 168, 177, 0.858);
+}
+
+.fondo-login {
+    background-image: url('../images/23.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footerCont {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    gap: 2rem;
+    padding: 0 0rem;
+}
+
+.footer1 {
+    background-color: #0D6EFD;
+    width: 100%;
+}
+
+.button-search {
+    background-color: #48a246;
+    border-color: aliceblue;
+}
+
+.footer-div-1 {
+    background-color: #111d35
+}
+
+.a1 {
+    text-decoration: none;
+}
+
+.cont-contact {
+    background-color: #dbeeed99;
+    color: Black;
+}
+
+.card-character {
+    padding-bottom: 20px;
+}
+
+.slide-enter,
+.slide-exit {
+  transition: transform 1000ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+.slide-exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.input-search{
+    height: 55px;
+    max-width: 300px;
+}
+
+.form-search {
+    justify-content: right;
+}
+
+.divPadre {
+    height: 100vh;
+    position: relative;
+}
+
+.divHijo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.divHijo2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.detalles {
+    max-width: 100px;
+}
+
+.AppTitulo {
+    color: white;
+    font-size: 20px;
+}
+
+.cardsWidth {
+    max-width: 350px;
+}
+
+.form-Cards2 {
+    justify-content: center;
+}
+
+.imagen {
+    width: auto;
+    height: 350px;
+}
