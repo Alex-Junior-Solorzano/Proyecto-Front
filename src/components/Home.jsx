@@ -22,7 +22,7 @@ const Home = () => {
         setTimeout(() => {
           setCharacters(response.data.results);
           setInfo(response.data.info);
-        }, 100);
+        }, 10);
         //console.log(response);
       })
       .catch((error) => {
