@@ -43,11 +43,11 @@
 
   - To install all packages
 
-    'npm i'
+    `npm i`
 
   - To run app
 
-    'npm start'
+    `npm start`
 
 
 ## Authors

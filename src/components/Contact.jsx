@@ -37,7 +37,7 @@ const Contact = () => {
       </Form.Group>
 
    <div className='d-grid'>
-   <Button variant="primary" type="submit">
+   <Button variant="primary" type="submit" name='Submit'>
         Submit
       </Button>
    </div>

@@ -10,7 +10,7 @@ const Login = () => {
         <div className='fondo-login wrapper bg-dark d-flex align-items-center justify-content-center w-100' >
             <div className='login rounded'>
                 <h2 className='mb-3'> Login Form</h2>
-                <form action="" className='needs-validation'>
+                <form onSubmit={() => navigate('/home')} className='needs-validation'>
                     <div className='form-group was-validated mb-2'>
                         <label htmlFor="email" className='form-label'>Email Address</label>
                         <input type="email" className='form-control' required/>
@@ -22,7 +22,7 @@ const Login = () => {
                         <div className='invalid-feedback'>Enter you Password</div>
                     </div>
                     <div className='form-group form-check mb-2'>
-                        <input type="checkbox" className='form-check-input'/>
+                        <input type="checkbox" className='form-check-input' />
                         <label htmlFor="check" className='form-check-label'>Remember me</label>
                     </div>
                     <div className='form-group form-check mb-2'>
@@ -31,7 +31,7 @@ const Login = () => {
                             <Alert.Link onClick={ () => navigate('/registro')}> click aqui</Alert.Link>.
                         </Alert>
                     </div>
-                    <button className='btn btn-success w-100 mt-2' type='' onClick={ () => navigate('/home')}>SIGN IN</button>
+                    <button className='btn btn-success w-100 mt-2 ' type='submit' >SIGN IN</button>
                 </form>
             </div>
         </div>
