@@ -46,6 +46,7 @@ const CardForm = () => {
     return (
         <div className='divPadre'>
             <div className='divHijo2'>
+                <h2> Formulario </h2>
                 <form onSubmit={handleSubmit} className='login rounded'>
                     <div className='form-group  mb-2'>
                         <label htmlFor='title' className='form-label'>Nombre:</label>
