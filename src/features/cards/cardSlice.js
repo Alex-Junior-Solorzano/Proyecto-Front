@@ -10,7 +10,7 @@ const initialState = [
     {
         id: "2",
         name: "Sujeto2",
-        image: "https://conceptodefinicion.de/wp-content/uploads/2014/05/Imagen-2.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/220px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
         location: "Tierra",
         description: "Es un bicho raro",
     },

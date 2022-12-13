@@ -70,7 +70,7 @@
 
 ## Supervisor
 
- 👤 **Juan Sevastian Sotomayor**
+ 👤 **Juan Sebastian Sotomayor**
 
  - GitHub: [@Juanse7793](https://github.com/Juanse7793)
  - Linkedin: [@Juan Sebastian Sotomayor](https://www.linkedin.com/in/juansebastiansotomayor/)

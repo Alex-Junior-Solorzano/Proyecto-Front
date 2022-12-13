@@ -25,6 +25,10 @@ body {
     border-radius: 5px;
     color: black;
     background-color: rgba(154, 168, 177, 0.858);
+    background-image: url('../images/logo1.png');
+    background-size: 110px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .fondo-login {
